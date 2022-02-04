@@ -1,0 +1,222 @@
+.main-wrapper {
+  width: 750px;
+  height: 1050px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 10px 10px 20px black;
+  position: relative;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  clip-path: circle(60% at 20% 25%);
+}
+
+.circle-bottom {
+  width: 250px;
+  height: 250px;
+  background-color: gray;
+  clip-path: circle(60% at 80% 90%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.circle-small-bottom {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(71, 235, 71);
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+}
+
+.circle-small {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(71, 235, 71);
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.circle-border {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+
+.circle-border-bottom {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+}
+
+.block {
+  width: 30px;
+  height: 130px;
+  background-color: indigo;
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+.block-bottom {
+  width: 120px;
+  height: 30px;
+  background-color: indigo;
+  position: absolute;
+  bottom: 0;
+  left: 280px;
+}
+
+.block-small {
+  width: 10px;
+  height: 80px;
+  position: absolute;
+}
+
+.block-small-one {
+  top: 0;
+  right: 400px;
+}
+
+.block-small-two {
+  top: 0;
+  right: 420px;
+}
+
+.block-small-bottom {
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  background-color: brown;
+}
+
+.block-small-bottom-one {
+  left: 0;
+  bottom: 400px;
+}
+
+.block-small-bottom-two {
+  left: 0;
+  bottom: 420;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  margin-top: -150px;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.header {
+  font-family: "Supermercado One", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+ul img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+.contacts {
+  display: flex;
+}
+
+.about {
+  margin-left: 30px;
+  margin-top: -5px;
+  color: gray;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+figure img {
+  width: 30%;
+  transition: 0.3s;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.column-background {
+  width: 300px;
+  background-color: bisque;
+  padding: 10px 10px 30px 40px;
+}
+
+.experience {
+  font-family: sans-serif;
+  margin-top: 30px;
+  color: black;
+}
+
+figure img:hover {
+  transform: scale(1.3);
+}
+
+.code {
+  margin-top: 30px;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.stars {
+  color: burlywood;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+aside li {
+  margin-left: -25px;
+}
+
+.Education {
+  margin-top: 180px;
+}
